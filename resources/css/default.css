@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Animation*/
+.ANMT
+{
+	transition: all 0.2s ease;
+}
+
+/*Background*/
+.BG 
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.BGCover
+{
+	backdrop-filter: blur(50px);
+	background-color: rgba(255,255,255,0.00);
+}
+
+/*container*/
+.container
+{
+	word-wrap: break-word;
+	
+	border: calc(calc(calc(100vw + 100vh) - abs(100vw - 100vh)) / 400);
+	border-color: rgba(127,127,127,0.05);
+	border-radius: 15px;
+	border-style: outset;
+	padding: 10px;
+	
+	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255,0.20);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.20);
+}
+
+/*Button*/
+.button
+{
+	border-radius: calc(100vw + 100vh);
+	padding: 10px;
+	border-style: outset;
+	border-color: rgba(127,127,127,0.05);
+	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255,0.05);
+/*	box-shadow: 0 0 5px 5px rgba(0,0,0,0.20);*/
+	
+}
+.button:hover
+{
+	background-color: rgba(255,255,255,0.20);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.20);
+}
+.button:active
+{
+	backdrop-filter: blur(50px);
+/*	background-color: rgba(255,255,255,0.50);*/
+}
+.btnAS0:active
+{
+	filter: blur(1px);
+	transform: scale(1.05);
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.20);
+}
+.btnAS1:active
+{
+	filter: blur(5px);
+	transform: scale(0.9);
+	box-shadow: none;
+}
+.btnAllow:hover
+{
+	background-color: rgba(20,50,200,1.00);
+	box-shadow: 0 0 10px 5px rgba(20,50,200,0.20);
+}
+.btnRefuse:hover
+{
+	background-color: rgba(200,20,20,1.00);
+	box-shadow: 0 0 10px 5px rgba(200,20,20,0.20);
+}
+.btnConfig0
+{
+	font-weight: 1000;
+	color: rbga(10,10,10,0.95);
+	border: calc(calc(calc(100vw + 100vh) - abs(100vw - 100vh)) / 400);
+/*	border: 5px;*/
+	border-color: rgba(127,127,127,0.05);
+	border-style: outset;
+/*	padding: 10px;*/
+	padding: 6px 14px;
+}
+.btnConfig0:hover
+{
+	color: white;
+}

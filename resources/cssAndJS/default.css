@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.bg
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.bgContainer
+{
+	border-radius: 15px;
+	padding: 20px;
+	border-style: outset;
+	border-color: rgba(127,127,127,0.05);
+	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255,0.20);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.20);
+}
+.container
+{
+	word-wrap: break-word;
+}
+.button
+{
+	border-radius: calc(calc(calc(100vw + 100vh) - calc(100vw - 100vh)) / 4);
+	padding: 10px;
+	border-style: outset;
+	border-color: rgba(127,127,127,0.05);
+	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255,0.05);
+/*	box-shadow: 0 0 5px 5px rgba(0,0,0,0.20);*/
+	transition: all 0.2s ease;
+}
+.button:hover
+{
+	background-color: rgba(255,255,255,0.20);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.20);
+}
+.button:active
+{
+	backdrop-filter: blur(50px);
+/*	background-color: rgba(255,255,255,0.50);*/
+}
+.buttonStyle0:active
+{
+	filter: blur(1px);
+	transform: scale(1.05);
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.20);
+}
+.buttonStyle1:active
+{
+	filter: blur(5px);
+	transform: scale(0.9);
+	box-shadow: none;
+}
+.input
+{
+	border-radius: calc(calc(calc(100vw + 100vh) - calc(100vw - 100vh)) / 4);
+	padding: 10px;
+	border-style: outset;
+	border-color: rgba(127,127,127,0.05);
+	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255,0.05);
+/*	box-shadow: 0 0 5px 5px rgba(0,0,0,0.20);*/
+	transition: all 0.2s ease;
+}
