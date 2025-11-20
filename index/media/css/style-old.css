@@ -1,9 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-body{background-color: azure;}
-nav{padding: 18px;}
-.navlink{background-color: none;color: #3F3F3F;text-decoration: none;transition: background-color 0.3s ease;font-size: 18px;padding: 15px;text-align: inherit;}
-.navlink:hover{background-color: #E9F3F4;}
-a{color: cornflowerblue;}
-.x3{flex: auto;}
-.cr{border-radius: 20px;font-size: 18px;padding-left: 20px;padding-right: 20px;padding-top: 5px;padding-bottom: 5px;border-style: solid;}
